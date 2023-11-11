@@ -1,0 +1,85 @@
+@import url("https://use.typekit.net/rrq2vom.css");
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #00101A;
+    font-family: erbaum;
+}
+
+nav{
+    margin: 2.5%;
+    padding-bottom: 1.25%;
+    position: absolute;
+}
+
+nav ul{
+    margin-right: 4%;
+}
+
+nav ul li{
+    display: inline;
+    float: right;
+    margin-right: 5%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: .9vw;
+}
+
+nav ul li a:hover{
+    color: #39cccc;
+}
+
+#Logo{
+    margin-top: -1.25%;
+    float: left;
+    width: 3.5%;
+    margin-left: 5%;
+}
+
+#Logo a img:hover{
+    background: #39cccc;
+    border-radius: 10px;
+}
+
+#Hero{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+}
+
+#heroText{
+    width: 60%;
+}
+
+#heroImage{
+    width: 40%;
+}
+
+#heroImage img{
+    width: 80%;
+    margin-top: -10%;
+}
+
+#heroText h1{
+    color: #001f3f;
+    font-weight: dark;
+    font-size: 6vw;
+    margin-left: 15%;
+    line-height: 1.1;
+}
+
+#heroText span{
+    color: white;
+}
+
+#heroText p{
+    color: white;
+    margin-left: 15.5%;
+    line-height: 1.5;
+    margin-top: -8%;
+}
